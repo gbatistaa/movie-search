@@ -1,0 +1,26 @@
+{
+  "name": "imdb-clone",
+  "version": "1.0.0",
+  "description": "It's a webapp where you can search information about your favorite movies",
+  "main": "script.js",
+  "scripts": {
+    "test": "imdb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbatistaa/movie-search.git"
+  },
+  "keywords": [
+    "imdb",
+    "films",
+    "search",
+    "info",
+    "cinema"
+  ],
+  "author": "Gabriel Batista Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbatistaa/movie-search/issues"
+  },
+  "homepage": "https://github.com/gbatistaa/movie-search#readme"
+}
