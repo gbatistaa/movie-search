@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Film Searche`r</title>
 </head>
 <body>
     
+    <header>
+
+        <div id="header-container">
+
+            <img src="./IMDB_logo.png" alt="logo" id="logo">
+
+            <button type="button" id="menu-btn">
+
+                <img src="./menu.png" alt="menu-icon" id="menu-icon">
+                <span>Menu</span>
+
+            </button>
+
+            <nav class="nav-bar" id="menu">
+                <ul>
+                    <li class="menu-items">Films</li>
+                    <li class="menu-items">Series</li>
+                    <li class="menu-items">Novels</li>
+                    <li class="menu-items">Cartoons</li>
+                    <li class="menu-items">Documentaries</li>
+                </ul>
+    
+            </nav>
+    
+            <form method="get">
+                <input type="text" name="film" id="input-film" autocomplete="off">
+            </form>
+
+           <button type="button" id="favorites-btn">
+                <img src="./favorite-icon.png" alt="fav-icon">
+                <span>Lista de favoritos</span>
+                <div id="num-conte">
+                    <span id="fav-count"></span>
+                </div>iner
+           </button>
+
+            <nav class="nav-bar" id="profile-info">
+                <ul>
+                    <li class="p-infos">Sua atividade</li>
+                    <li class="p-infos">Sua lista</li>
+                    <li class="p-infos">Suas Configurações</li>
+                    <li class="p-infos">Seu perfil</li>
+                    <li class="p-infos">Desconectar</li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="main-section">
+        <div class="car-movies">
+
+        </div>
+        <div class="car-movies">
+
+        </div>
+        <div class="car-movies"></div>
+        <div class="car-movies">
+            
+        </div>
+    </section>
+
+    <section class="main-sec"></section>
+    <script src="script.js"></script>
 </body>
 </html>
